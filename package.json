@@ -1,0 +1,18 @@
+{
+  "name": "minecraftbotserver1.18",
+  "version": "1.0.0",
+  "description": "Minecraft bot server ver 1.18",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zunzelf",
+  "license": "ISC",
+  "dependencies": {
+    "minecraft-protocol": "^1.32.1",
+    "mineflayer": "^4.2.0",
+    "mineflayer-blockfinder": "^0.0.7",
+    "mineflayer-cmd": "^1.1.3"
+  }
+}
